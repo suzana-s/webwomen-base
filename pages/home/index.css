@@ -1,0 +1,110 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+/* .background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ */
+header{
+    background-image: url(../../assets/img/Pexels\ Photo\ by\ Christina\ Morillo.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    padding: 100px 0px; 
+    height: max-content;
+
+}
+
+.header img {
+    margin-bottom: 60px;
+}
+
+.header h1 {
+    font-size: var(--title-3);
+    color: var(--color-grey-3);
+    margin-bottom: 32px;
+    line-height: 48px;
+}
+
+.header p {
+    margin-bottom: 40px;
+}
+
+.color {
+    background-color: rgba(0, 0, 0,0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background-color: var(--color-grey-3);
+    padding: 43px 0px;
+}
+
+#vagas h3 {
+   margin-bottom: 44px;
+}
+
+#vagasSelecionada {
+    background-color: var(--color-grey-6);
+    border-radius: 8px;
+
+}
+
+#vagasSelecionada h3 {
+    text-align: center;
+    transform: translateY(20px);
+    margin-bottom: 20px;
+   
+}
+
+#vagasSelecionada div p {
+    color: var(--color-grey-2);
+}
+
+#vagasSelecionada span {
+    margin-right: 32px;
+    display: inline;
+}
+
+#vagasSelecionada ul li {
+    list-style: none;
+    padding: 32px 20px;
+    border-bottom: 1px solid var(--color-grey-3);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#vagasSelecionada ul li h2 {
+    width: 220px;
+}
+
+.vazio {
+    padding: 100px;
+    display: block;
+}
+
+.none {
+    display: none;
+}

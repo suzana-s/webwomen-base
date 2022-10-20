@@ -1,0 +1,39 @@
+.font18 {
+    font-size: var(--title-5);
+    line-height: 36px;
+}
+
+.weigth600 {
+    font-weight: 600;
+}
+
+.white {
+    color: var(--color-grey-5);
+}
+
+.font22 {
+    font-size: var(--title-4);
+}
+
+.font14 {
+    font-size: var(--text-3);
+    color: var(--color-grey-2);
+}
+
+.weigth400 {
+    font-weight: 400;
+}
+
+.font18 {
+    font-size: var(--title-5);
+}
+
+.grey2 {
+    color: var(--color-grey-2);
+    font-weight: 400;
+}
+
+.grey3 {
+    color: var(--color-grey-3);
+    
+}

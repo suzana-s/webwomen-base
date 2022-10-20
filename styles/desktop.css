@@ -1,0 +1,36 @@
+@media (min-width: 900px) {
+    header {
+        background-image: url(../assets/img/Pexels\ Photo\ by\ Christina\ Morillo\ \(1\).png);
+    }
+
+    .desktop-Wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #vagas {
+        width: 60%;
+    }
+
+
+
+    #vagas button {
+        width: max-content;
+    }
+
+    #vagas div {
+        width: 100%;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #vagasSelecionada {
+        width: 35%;
+        margin-top: 75px;
+        position: sticky;
+        top: 10px;
+        right: 0;
+        height: max-content;
+    }
+}

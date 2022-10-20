@@ -1,0 +1,28 @@
+#vagas ul li {
+    list-style: none;
+    margin-bottom: 32px;
+    background-color: var(--color-grey-6);
+    padding: 38px 20px;
+    border-radius: 8px;
+
+}
+
+#vagas ul li h2 {
+    margin-bottom: 18px;
+}
+
+#vagas ul li span {
+    margin-right: 32px;
+    font-size: 14px;
+}
+
+#vagas ul li p {
+    margin: 28px 0;
+}
+
+#vagas ul li h4 {
+    background-color: var(--color-grey-3);
+    width: max-content;
+    padding: 4px 12px;
+    margin-bottom: 32px;
+}
